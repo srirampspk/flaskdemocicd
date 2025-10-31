@@ -6,6 +6,6 @@ EXPOSE  5000
 
 WORKDIR /cicddemo
 
-RUN pip install --no-cache-dir -r requirments.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 CMD ["python","app.py"]
